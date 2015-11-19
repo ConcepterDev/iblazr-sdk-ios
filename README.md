@@ -20,9 +20,9 @@ Drag files (with iblazrSDK directory) into your project ;)<br>
 @interface ViewController : UIViewController <STDeviceManagerDelegate>
 ```
 ### Device parameters
-Check `STDevice.h`,`STDeviceIblazr2.h` and `STDeviceIblazrOriginal.h` for get avaiable parametrs.
-`float lightPower` - value can be in range 0-16
-`float lightTemperature;` - value can be in range 0-125
+Check `STDevice.h`,`STDeviceIblazr2.h` and `STDeviceIblazrOriginal.h` for get available parametrs.<br>
+`float lightPower` - value can be in range 0-16<br>
+`float lightTemperature;` - value can be in range 0-125<br>
 NOTE:  `lightTemperature` in current version you can set 25 as maximum value. In `STDeviceManager.m` line:290 it be multiply with 5.
 
 
