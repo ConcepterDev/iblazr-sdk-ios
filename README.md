@@ -3,9 +3,10 @@ iOS iblazr SDK for communicating with the iblazr 2 via Bluetooth and iblazr orig
 ## Overview
 This SDK provides an Objective-C interface for access to iblazr 2 via CoreBluetooth and iblazr original via AudioToolbox. All the following code tested on iPhone 4s and up, iPod 4 and up, iPads and up, and both devices with iOS 8 and iOS 9
 
-`NOTE:` not working in simulator
+> NOTE: not working in simulator
 
-`P.S.:` current version was taken from our [Shotlight App](https://itunes.apple.com/us/app/shotlight-manual-photo-video/id982905457?mt=8) as is, if you don’t understand anything, don’t hesitate to contact us (see at [feedback](https://github.com/concepterhqinc/iblazr-sdk-ios#Feedback) section)
+> P.S.: current version was taken from our [Shotlight App](https://itunes.apple.com/us/app/shotlight-manual-photo-video/id982905457?mt=8) as is, if you don’t understand anything, don’t hesitate to contact us (see at [feedback](https://github.com/concepterhqinc/iblazr-sdk-ios#Feedback) section)
+
 ## How To Get Started
 * [Download iblazrSDK](https://github.com/concepterhqinc/iblazr-sdk-ios/archive/master.zip) and try out the included iPhone example app
 * Read the "[Getting Started](https://github.com/concepterhqinc/iblazr-sdk-ios#Documentation)" guide
@@ -23,7 +24,7 @@ Drag files (with iblazrSDK directory) into your project ;)<br>
 Check `STDevice.h`,`STDeviceIblazr2.h` and `STDeviceIblazrOriginal.h` for get available parametrs.<br>
 `float lightPower` - value can be in range 0-16<br>
 `float lightTemperature;` - value can be in range 0-125<br>
-NOTE:  `lightTemperature` in current version you can set 25 as maximum value. In `STDeviceManager.m` line:290 it be multiply with 5.
+> NOTE:  `lightTemperature` in current version you can set 25 as maximum value. In `STDeviceManager.m` line:290 it be multiply with 5.
 
 
 ### Start using
