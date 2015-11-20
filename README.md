@@ -68,7 +68,7 @@ STDevice *device = {device}
 ## Additional Resources
 You can find additional protocol information here:
 * iblazr 2 documentation at *LINK*
-* iblazr original documentation at *LINK*
+* iblazr original documentation at [*LINK*](https://github.com/ConcepterDev/iblazr-original-protocol)
 
 ## License
 iblazrSDK is licensed under the MIT License. See LICENSE for details.
