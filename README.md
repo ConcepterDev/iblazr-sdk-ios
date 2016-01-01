@@ -1,5 +1,5 @@
 ## iblazrSDK
-iOS iblazr SDK for communicating with the iblazr 2 via Bluetooth and iblazr original via 3.5mm audio jack http://iblazr.com
+iOS iblazr SDK for communicating with the iblazr 2 via Bluetooth and iblazr original via 3.5mm audio jack http://concepter.co
 ## Overview
 This SDK provides an Objective-C interface for access to iblazr 2 via CoreBluetooth and iblazr original via AudioToolbox. All the following code tested on iPhone 4s and up, iPod 4 and up, iPads and up, and both devices with iOS 8 and iOS 9
 
