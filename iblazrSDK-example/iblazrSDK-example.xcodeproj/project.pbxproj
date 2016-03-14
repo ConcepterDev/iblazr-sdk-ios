@@ -13,13 +13,13 @@
 		A172E6381BFCF47C00248941 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A172E6361BFCF47C00248941 /* Main.storyboard */; };
 		A172E63A1BFCF47C00248941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A172E6391BFCF47C00248941 /* Assets.xcassets */; };
 		A172E63D1BFCF47C00248941 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A172E63B1BFCF47C00248941 /* LaunchScreen.storyboard */; };
-		A172E6521BFCF5D400248941 /* BTController.m in Sources */ = {isa = PBXBuildFile; fileRef = A172E6481BFCF5D400248941 /* BTController.m */; };
-		A172E6531BFCF5D400248941 /* STDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = A172E64A1BFCF5D400248941 /* STDevice.m */; };
-		A172E6541BFCF5D400248941 /* STDeviceIblazr2.m in Sources */ = {isa = PBXBuildFile; fileRef = A172E64C1BFCF5D400248941 /* STDeviceIblazr2.m */; };
-		A172E6551BFCF5D400248941 /* STDeviceIblazrOriginal.m in Sources */ = {isa = PBXBuildFile; fileRef = A172E64E1BFCF5D400248941 /* STDeviceIblazrOriginal.m */; };
-		A172E6561BFCF5D400248941 /* STDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A172E6501BFCF5D400248941 /* STDeviceManager.m */; };
-		A172E65A1BFDF2D800248941 /* ToneGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = A172E6591BFDF2D800248941 /* ToneGenerator.m */; };
-		A172E65C1BFE0D1A00248941 /* iblazr_for_shop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A172E65B1BFE0D1A00248941 /* iblazr_for_shop@2x.png */; };
+		A1FEE50A1C9706A70005896C /* BTController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FEE4FC1C9706A70005896C /* BTController.m */; };
+		A1FEE50B1C9706A70005896C /* iblazr_for_shop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1FEE4FD1C9706A70005896C /* iblazr_for_shop@2x.png */; };
+		A1FEE50C1C9706A70005896C /* STDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FEE4FF1C9706A70005896C /* STDevice.m */; };
+		A1FEE50D1C9706A70005896C /* STDeviceIblazr2.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FEE5011C9706A70005896C /* STDeviceIblazr2.m */; };
+		A1FEE50E1C9706A70005896C /* STDeviceIblazrOriginal.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FEE5031C9706A70005896C /* STDeviceIblazrOriginal.m */; };
+		A1FEE50F1C9706A70005896C /* STDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FEE5051C9706A70005896C /* STDeviceManager.m */; };
+		A1FEE5101C9706A70005896C /* ToneGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FEE5091C9706A70005896C /* ToneGenerator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,20 +33,20 @@
 		A172E6391BFCF47C00248941 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A172E63C1BFCF47C00248941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A172E63E1BFCF47C00248941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A172E6471BFCF5D400248941 /* BTController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTController.h; sourceTree = "<group>"; };
-		A172E6481BFCF5D400248941 /* BTController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTController.m; sourceTree = "<group>"; };
-		A172E6491BFCF5D400248941 /* STDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STDevice.h; sourceTree = "<group>"; };
-		A172E64A1BFCF5D400248941 /* STDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STDevice.m; sourceTree = "<group>"; };
-		A172E64B1BFCF5D400248941 /* STDeviceIblazr2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STDeviceIblazr2.h; sourceTree = "<group>"; };
-		A172E64C1BFCF5D400248941 /* STDeviceIblazr2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STDeviceIblazr2.m; sourceTree = "<group>"; };
-		A172E64D1BFCF5D400248941 /* STDeviceIblazrOriginal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STDeviceIblazrOriginal.h; sourceTree = "<group>"; };
-		A172E64E1BFCF5D400248941 /* STDeviceIblazrOriginal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STDeviceIblazrOriginal.m; sourceTree = "<group>"; };
-		A172E64F1BFCF5D400248941 /* STDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STDeviceManager.h; sourceTree = "<group>"; };
-		A172E6501BFCF5D400248941 /* STDeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STDeviceManager.m; sourceTree = "<group>"; };
-		A172E6511BFCF5D400248941 /* STDeviceTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STDeviceTypes.h; sourceTree = "<group>"; };
-		A172E6581BFDF2D800248941 /* ToneGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToneGenerator.h; sourceTree = "<group>"; };
-		A172E6591BFDF2D800248941 /* ToneGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToneGenerator.m; sourceTree = "<group>"; };
-		A172E65B1BFE0D1A00248941 /* iblazr_for_shop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iblazr_for_shop@2x.png"; sourceTree = "<group>"; };
+		A1FEE4FB1C9706A70005896C /* BTController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTController.h; sourceTree = "<group>"; };
+		A1FEE4FC1C9706A70005896C /* BTController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTController.m; sourceTree = "<group>"; };
+		A1FEE4FD1C9706A70005896C /* iblazr_for_shop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iblazr_for_shop@2x.png"; sourceTree = "<group>"; };
+		A1FEE4FE1C9706A70005896C /* STDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STDevice.h; sourceTree = "<group>"; };
+		A1FEE4FF1C9706A70005896C /* STDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STDevice.m; sourceTree = "<group>"; };
+		A1FEE5001C9706A70005896C /* STDeviceIblazr2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STDeviceIblazr2.h; sourceTree = "<group>"; };
+		A1FEE5011C9706A70005896C /* STDeviceIblazr2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STDeviceIblazr2.m; sourceTree = "<group>"; };
+		A1FEE5021C9706A70005896C /* STDeviceIblazrOriginal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STDeviceIblazrOriginal.h; sourceTree = "<group>"; };
+		A1FEE5031C9706A70005896C /* STDeviceIblazrOriginal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STDeviceIblazrOriginal.m; sourceTree = "<group>"; };
+		A1FEE5041C9706A70005896C /* STDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STDeviceManager.h; sourceTree = "<group>"; };
+		A1FEE5051C9706A70005896C /* STDeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STDeviceManager.m; sourceTree = "<group>"; };
+		A1FEE5061C9706A70005896C /* STDeviceTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STDeviceTypes.h; sourceTree = "<group>"; };
+		A1FEE5081C9706A70005896C /* ToneGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToneGenerator.h; sourceTree = "<group>"; };
+		A1FEE5091C9706A70005896C /* ToneGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToneGenerator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +83,7 @@
 				A172E6311BFCF47C00248941 /* AppDelegate.m */,
 				A172E6331BFCF47C00248941 /* ViewController.h */,
 				A172E6341BFCF47C00248941 /* ViewController.m */,
-				A172E6461BFCF5D400248941 /* IBLAZRSDK */,
+				A1FEE4FA1C9706A70005896C /* IBLAZRSDK */,
 				A172E6361BFCF47C00248941 /* Main.storyboard */,
 				A172E6391BFCF47C00248941 /* Assets.xcassets */,
 				A172E63B1BFCF47C00248941 /* LaunchScreen.storyboard */,
@@ -101,31 +101,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A172E6461BFCF5D400248941 /* IBLAZRSDK */ = {
+		A1FEE4FA1C9706A70005896C /* IBLAZRSDK */ = {
 			isa = PBXGroup;
 			children = (
-				A172E6571BFDF2D800248941 /* ToneGenerator */,
-				A172E6471BFCF5D400248941 /* BTController.h */,
-				A172E6481BFCF5D400248941 /* BTController.m */,
-				A172E6491BFCF5D400248941 /* STDevice.h */,
-				A172E64A1BFCF5D400248941 /* STDevice.m */,
-				A172E64B1BFCF5D400248941 /* STDeviceIblazr2.h */,
-				A172E64C1BFCF5D400248941 /* STDeviceIblazr2.m */,
-				A172E64D1BFCF5D400248941 /* STDeviceIblazrOriginal.h */,
-				A172E64E1BFCF5D400248941 /* STDeviceIblazrOriginal.m */,
-				A172E64F1BFCF5D400248941 /* STDeviceManager.h */,
-				A172E6501BFCF5D400248941 /* STDeviceManager.m */,
-				A172E6511BFCF5D400248941 /* STDeviceTypes.h */,
-				A172E65B1BFE0D1A00248941 /* iblazr_for_shop@2x.png */,
+				A1FEE4FB1C9706A70005896C /* BTController.h */,
+				A1FEE4FC1C9706A70005896C /* BTController.m */,
+				A1FEE4FD1C9706A70005896C /* iblazr_for_shop@2x.png */,
+				A1FEE4FE1C9706A70005896C /* STDevice.h */,
+				A1FEE4FF1C9706A70005896C /* STDevice.m */,
+				A1FEE5001C9706A70005896C /* STDeviceIblazr2.h */,
+				A1FEE5011C9706A70005896C /* STDeviceIblazr2.m */,
+				A1FEE5021C9706A70005896C /* STDeviceIblazrOriginal.h */,
+				A1FEE5031C9706A70005896C /* STDeviceIblazrOriginal.m */,
+				A1FEE5041C9706A70005896C /* STDeviceManager.h */,
+				A1FEE5051C9706A70005896C /* STDeviceManager.m */,
+				A1FEE5061C9706A70005896C /* STDeviceTypes.h */,
+				A1FEE5071C9706A70005896C /* ToneGenerator */,
 			);
-			path = IBLAZRSDK;
+			name = IBLAZRSDK;
+			path = ../../IBLAZRSDK;
 			sourceTree = "<group>";
 		};
-		A172E6571BFDF2D800248941 /* ToneGenerator */ = {
+		A1FEE5071C9706A70005896C /* ToneGenerator */ = {
 			isa = PBXGroup;
 			children = (
-				A172E6581BFDF2D800248941 /* ToneGenerator.h */,
-				A172E6591BFDF2D800248941 /* ToneGenerator.m */,
+				A1FEE5081C9706A70005896C /* ToneGenerator.h */,
+				A1FEE5091C9706A70005896C /* ToneGenerator.m */,
 			);
 			path = ToneGenerator;
 			sourceTree = "<group>";
@@ -194,8 +195,8 @@
 			files = (
 				A172E63D1BFCF47C00248941 /* LaunchScreen.storyboard in Resources */,
 				A172E63A1BFCF47C00248941 /* Assets.xcassets in Resources */,
+				A1FEE50B1C9706A70005896C /* iblazr_for_shop@2x.png in Resources */,
 				A172E6381BFCF47C00248941 /* Main.storyboard in Resources */,
-				A172E65C1BFE0D1A00248941 /* iblazr_for_shop@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,13 +209,13 @@
 			files = (
 				A172E6351BFCF47C00248941 /* ViewController.m in Sources */,
 				A172E6321BFCF47C00248941 /* AppDelegate.m in Sources */,
-				A172E65A1BFDF2D800248941 /* ToneGenerator.m in Sources */,
+				A1FEE5101C9706A70005896C /* ToneGenerator.m in Sources */,
 				A172E62F1BFCF47C00248941 /* main.m in Sources */,
-				A172E6551BFCF5D400248941 /* STDeviceIblazrOriginal.m in Sources */,
-				A172E6541BFCF5D400248941 /* STDeviceIblazr2.m in Sources */,
-				A172E6531BFCF5D400248941 /* STDevice.m in Sources */,
-				A172E6561BFCF5D400248941 /* STDeviceManager.m in Sources */,
-				A172E6521BFCF5D400248941 /* BTController.m in Sources */,
+				A1FEE50E1C9706A70005896C /* STDeviceIblazrOriginal.m in Sources */,
+				A1FEE50D1C9706A70005896C /* STDeviceIblazr2.m in Sources */,
+				A1FEE50C1C9706A70005896C /* STDevice.m in Sources */,
+				A1FEE50F1C9706A70005896C /* STDeviceManager.m in Sources */,
+				A1FEE50A1C9706A70005896C /* BTController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +362,7 @@
 				A172E6431BFCF47C00248941 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

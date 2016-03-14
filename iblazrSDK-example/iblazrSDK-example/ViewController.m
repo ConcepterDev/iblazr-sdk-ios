@@ -55,6 +55,14 @@
                                       time:time];
 }
 
+- (IBAction)turnOff:(UIButton *)sender {
+    
+    // setup custom time
+    NSInteger time = 300;
+    [deviceManager configDevicesForCommand:STDeviceManagerComandTurnOff
+                                      time:time];
+}
+
 #pragma mark UISlider delegates
 
 - (IBAction)sliderValueChanged:(UISlider *)sender {

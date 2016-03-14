@@ -299,6 +299,7 @@
                 }
             }
         } break;
+            
         case STDeviceTypeIblazrOriginal: {
             STDeviceIblazrOriginal *iblazr = (STDeviceIblazrOriginal*)device;
             [iblazr.tone setFrequency:power*500.f+2000.f]; //80 koeficient, 5 - step in slider ((fq is 2000-100000 range)

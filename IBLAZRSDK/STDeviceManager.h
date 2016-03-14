@@ -41,7 +41,8 @@ typedef enum STDeviceManagerComand{
     STDeviceManagerComandLight = 16,
     STDeviceManagerComandStatus = 17,
     STDeviceManagerComandVideo = 22,
-    STDeviceManagerComandStop = 18
+    STDeviceManagerComandStop = 18,
+    STDeviceManagerComandTurnOff = 32
 } STDeviceManagerComand;
 
 @protocol STDeviceManagerDelegate;
