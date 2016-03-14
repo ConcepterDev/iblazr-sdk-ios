@@ -65,6 +65,11 @@ STDevice *device = {device}
 [deviceManager configDevice:device STDeviceManagerComandStop time:time temperature:lightTemperature power:lightPower];
 ```
 
+Also you can use Turn Off command
+```objective-c
+[deviceManager configDevicesForCommand:STDeviceManagerComandTurnOff time:0];
+```
+
 ## Additional Resources
 You can find additional protocol information here:
 * iblazr 2 documentation at [*LINK*](https://github.com/ConcepterDev/iblazr-2-protocol)
